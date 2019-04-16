@@ -1,0 +1,27 @@
+.hedercontent-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #e7e7e7;
+  padding-right: 50px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 500;
+  color: #7d7d7d;
+  align-self: center;
+  padding-left: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  align-self: center;
+}

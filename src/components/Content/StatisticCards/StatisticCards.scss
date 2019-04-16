@@ -1,0 +1,63 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 215px 215px 215px 215px 215px 215px;
+  grid-template-rows: 215px 215px 215px;
+  grid-template-areas:
+    'leads new-client new-companies task traffic-sources traffic-sources'
+    'completed-to-do leads-no-to-do email cals traffic-sources traffic-sources'
+    'sequential-schedule sequential-schedule sequential-schedule sequential-schedule sequential-schedule sequential-schedule';
+  grid-gap: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.leads {
+  grid-area: leads;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.new-client {
+  grid-area: new-client;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.new-companies {
+  grid-area: new-companies;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.task {
+  grid-area: task;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.traffic-sources {
+  grid-area: traffic-sources;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.completed-to-do {
+  grid-area: completed-to-do;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.leads-no-to-do {
+  grid-area: leads-no-to-do;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.email {
+  grid-area: email;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.cals {
+  grid-area: cals;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}
+
+.sequential-schedule {
+  grid-area: sequential-schedule;
+  box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+}

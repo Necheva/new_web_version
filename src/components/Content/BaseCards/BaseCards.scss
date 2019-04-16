@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 215px;
+  height: 215px;
+  background-color: #fff;
+}
+
+.headers {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: space-between;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  padding-top: 25px;
+  color: #7d7d7d;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: #7d7d7d;
+}

@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.headers {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  font-weight: 500;
+  color: #7d7d7d;
+  justify-content: center;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #7d7d7d;
+}
+
+.separator-initial {
+  width: 160px;
+  border-top: 1px solid rgb(0, 234, 255);
+  border-bottom: 2px solid rgb(0, 234, 255);
+}
+
+.separator-offer {
+  width: 160px;
+  border-top: 1px solid orange;
+  border-bottom: 2px solid orange;
+}
+
+.separator-negotiation {
+  width: 160px;
+  border-top: 1px solid rgb(117, 0, 108);
+  border-bottom: 2px solid rgb(117, 0, 108);
+}
+
+.arrow {
+  padding-top: 75px;
+}
+
+.separator-contract {
+  width: 160px;
+  border-top: 1px solid rgb(255, 95, 122);
+  border-bottom: 2px solid rgb(255, 95, 122);
+}
+
+.separator-won {
+  width: 160px;
+  border-top: 1px solid rgb(0, 185, 0);
+  border-bottom: 2px solid rgb(0, 185, 0);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  color: #7d7d7d;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: #7d7d7d;
+}
+
+.text-color {
+  color: rgb(9, 252, 9);
+  font-weight: 600;
+}

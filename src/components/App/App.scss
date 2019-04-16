@@ -20,3 +20,36 @@
     position: absolute;
   }
 }
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.scroll-down {
+  overflow: auto;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: px(5);
+    background-color: #eff0f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: px(50);
+    width: px(5);
+    background-color: #d4d6dd;
+  }
+
+  &::-webkit-scrollbar:horizontal {
+    -webkit-appearance: none;
+    height: px(5);
+    background-color: #eff0f1;
+  }
+
+  &::-webkit-scrollbar-thumb:horizontal {
+    border-radius: px(50);
+    height: px(5);
+    background-color: #d4d6dd;
+  }
+}
