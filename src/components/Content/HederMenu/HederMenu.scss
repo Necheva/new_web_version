@@ -10,6 +10,11 @@
   justify-content: space-between;
 }
 
+placeholder {
+  font-weight: 500;
+  color: #7d7d7d;
+}
+
 .title {
   font-weight: 500;
   color: #7d7d7d;
@@ -36,4 +41,5 @@ input {
   border: none;
   background: transparent;
   size: 5px;
+  outline: none;
 }

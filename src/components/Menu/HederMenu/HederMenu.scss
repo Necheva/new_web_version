@@ -1,18 +1,25 @@
-.heder-container {
-  display: flex;
-  flex-direction: row;
-  padding-left: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.menu-container {
+  display: grid;
+  grid-template-columns: 50px 275px 50px;
+  grid-template-rows: 94px;
+  grid-template-areas: 'burger title-menu cross';
+
+  .burger {
+    grid-area: burger;
+  }
+
+  .title-menu {
+    grid-area: title-menu;
+    color: #7d7d7d;
+    font-weight: 500;
+  }
+
+  .cross {
+    grid-area: cross;
+  }
+
   border-bottom: 2px solid #e7e7e7;
   border-right: 2px solid #e7e7e7;
-  padding-right: 40px;
-}
-
-.title {
-  font-weight: 500;
-  color: #7d7d7d;
+  align-items: center;
   padding-left: 25px;
-  padding-right: 100px;
-  align-self: center;
 }

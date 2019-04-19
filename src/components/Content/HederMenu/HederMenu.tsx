@@ -10,7 +10,7 @@ class HederMenu extends React.Component {
           <div className={styles.image}>
             <img src={require('./search-solid.svg')} width={17} height={17} />
           </div>
-          <input placeholder="Type in to Search..." />
+          <input placeholder="Type in to Search..." className={styles.title} />
         </div>
         <img src={require('./circle-regular.svg')} width={40} height={40} />
         <div className={styles.wrapper}>
