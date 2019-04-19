@@ -24,4 +24,16 @@
 
 .image {
   align-self: center;
+  padding-right: 15px;
+}
+
+.round-image {
+  border-radius: 100%;
+  background-size: auto 40px;
+}
+
+input {
+  border: none;
+  background: transparent;
+  size: 5px;
 }

@@ -7,61 +7,124 @@ import styles from '@src/components/Content/Graphics/BestManagers/BestManagers.s
 class BestManagers extends React.Component {
   render() {
     return (
-      <div className={styles.container}>
-        <div className={styles.frame}>
-          <div className={styles.userName}>
-            <div className={styles.text}>Best Managers</div>
-            <div className={styles.separator} />
-            <div className={styles.text}>Name</div>
-            <div className={styles.separator} />
-            <div className={styles.text}>Gary Bryan</div>
-            <div className={styles.separator} />
-            <div className={styles.text}>Milton Day</div>
-            <div className={styles.separator} />
-            <div className={styles.text}>Nicholas Stokes</div>
-            <div className={styles.separator} />
-            <div className={styles.text}>Ada Thompson</div>
-          </div>
-          <div className={styles.data}>
-            <div className={styles.wrapper}>
-              <div className={styles.text} />
-              <div className={styles.text} />
-              <div className={styles.text} />
-              <div className={styles.text} />
-            </div>
-            <div className={styles.wrapper}>
-              <div className={styles.text}>Leads</div>
-              <div className={styles.text}>Won</div>
-              <div className={styles.text}>To Do</div>
-              <div className={styles.text}>Sale</div>
-            </div>
-            <div className={styles.wrapper}>
-              <div className={styles.textPadding}>33</div>
-              <div className={styles.textPadding}>5</div>
-              <div className={styles.textPadding}>24</div>
-              <div className={styles.textPadding}>$ 984</div>
-            </div>
-            <div className={styles.wrapper}>
-              <div className={styles.textPadding}>33</div>
-              <div className={styles.textPadding}>5</div>
-              <div className={styles.textPadding}>24</div>
-              <div className={styles.textPadding}>$ 984</div>
-            </div>
-            <div className={styles.wrapper}>
-              <div className={styles.textPadding}>33</div>
-              <div className={styles.textPadding}>5</div>
-              <div className={styles.textPadding}>24</div>
-              <div className={styles.textPadding}>$ 984</div>
-            </div>
-            <div className={styles.wrapper}>
-              <div className={styles.textPadding}>33</div>
-              <div className={styles.textPadding}>5</div>
-              <div className={styles.textPadding}>24</div>
-              <div className={styles.textPadding}>$ 984</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <>
+        <div className={styles.mainTitle}>Best Managers</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Leads</th>
+              <th>Won</th>
+              <th>To Do</th>
+              <th>Sale</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div className={styles.wrapper}>
+                  <img
+                    src={require('./c065b7814160245ecabda72d0d8dce96.jpg')}
+                    width={30}
+                    height={30}
+                    className={styles.roundImage}
+                  />
+                  <div className={styles.title}>Vova</div>
+                </div>
+              </td>
+              <td>33</td>
+              <td>5</td>
+              <td>24</td>
+              <td>$984</td>
+            </tr>
+            <tr>
+              <td>
+                <div className={styles.wrapper}>
+                  <img
+                    src={require('./c065b7814160245ecabda72d0d8dce96.jpg')}
+                    width={30}
+                    height={30}
+                    className={styles.roundImage}
+                  />
+                  <div className={styles.title}>Simon</div>
+                </div>
+              </td>
+              <td>33</td>
+              <td>5</td>
+              <td>24</td>
+              <td>$984</td>
+            </tr>
+            <tr>
+              <td>
+                <div className={styles.wrapper}>
+                  <img
+                    src={require('./c065b7814160245ecabda72d0d8dce96.jpg')}
+                    width={30}
+                    height={30}
+                    className={styles.roundImage}
+                  />
+                  <div className={styles.title}>Kirill</div>
+                </div>
+              </td>
+              <td>33</td>
+              <td>5</td>
+              <td>24</td>
+              <td>$984</td>
+            </tr>
+            <tr>
+              <td>
+                <div className={styles.wrapper}>
+                  <img
+                    src={require('./c065b7814160245ecabda72d0d8dce96.jpg')}
+                    width={30}
+                    height={30}
+                    className={styles.roundImage}
+                  />
+                  <div className={styles.title}>Sasha</div>
+                </div>
+              </td>
+              <td>33</td>
+              <td>5</td>
+              <td>24</td>
+              <td>$984</td>
+            </tr>
+            <tr>
+              <td>
+                <div className={styles.wrapper}>
+                  <img
+                    src={require('./c065b7814160245ecabda72d0d8dce96.jpg')}
+                    width={30}
+                    height={30}
+                    className={styles.roundImage}
+                  />
+                  <div className={styles.title}>Artem</div>
+                </div>
+              </td>
+              <td>33</td>
+              <td>5</td>
+              <td>24</td>
+              <td>$984</td>
+            </tr>
+            <tr>
+              <td>
+                <div className={styles.wrapper}>
+                  <img
+                    src={require('./c065b7814160245ecabda72d0d8dce96.jpg')}
+                    width={30}
+                    height={30}
+                    className={styles.roundImage}
+                  />
+                  <div className={styles.title}>Lesha</div>
+                </div>
+              </td>
+              <td>33</td>
+              <td>5</td>
+              <td>24</td>
+              <td>$984</td>
+            </tr>
+          </tbody>
+        </table>
+      </>
     );
   }
 }

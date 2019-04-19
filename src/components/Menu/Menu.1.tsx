@@ -20,45 +20,16 @@ const menuConfig: SubMenuProps[] = [
         img: require('./user-circle-solid.svg'),
       },
       {
-        title: 'Contacts',
-        img: require('./star-solid.svg'),
+        title: 'Dashboard',
+        img: require('./columns-solid.svg'),
       },
       {
-        title: 'Stats',
-        img: require('./chart-line-solid.svg'),
+        title: 'Deals',
+        img: require('./user-circle-solid.svg'),
       },
       {
-        title: 'Settings',
-        img: require('./cog-solid.svg'),
-      },
-    ],
-  },
-
-  {
-    title: 'Last Leads',
-    isShowMore: true,
-    items: [
-      {
-        title: 'Bryce Canyon a stunnin...',
-        img: require('./toolbox-solid.svg'),
-      },
-      {
-        title: 'What makes a hotel boy...',
-        img: require('./toolbox-solid.svg'),
-      },
-    ],
-  },
-  {
-    title: 'Last Client',
-    isShowMore: true,
-    items: [
-      {
-        title: 'Leila Estrada',
-        img: require('./user-alt-solid.svg'),
-      },
-      {
-        title: 'Melvin Valdez',
-        img: require('./user-alt-solid.svg'),
+        title: 'Dashboard',
+        img: require('./columns-solid.svg'),
       },
     ],
   },
@@ -74,6 +45,9 @@ class Menu extends React.Component {
             <SubMenu {...c} />
           ))}
         </>
+        {/* <DashBoard />
+        <LastLeads />
+        <LastClient /> */}
       </div>
     );
   }

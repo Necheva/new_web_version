@@ -45,7 +45,15 @@ class TrafficSources extends React.Component {
         </div>
         <div className={styles.count}>
           <PieChart width={460} height={300}>
-            <Pie data={this.data} cx={230} cy={150} innerRadius={75} outerRadius={90} fill="#8884d8" paddingAngle={0}>
+            <Pie
+              data={this.data}
+              cx={230}
+              cy={150}
+              innerRadius={75}
+              outerRadius={90}
+              fill="#8884d8"
+              paddingAngle={0}
+              dataKey={'value'}>
               {this.data.map((entry, index) => (
                 <Cell key={'raceGroupsChart' + index} fill={this.COLORS[index % this.COLORS.length]} />
               ))}
@@ -53,24 +61,24 @@ class TrafficSources extends React.Component {
             <Tooltip />
           </PieChart>
         </div>
-        <div className={styles.wrapperColumn}>
-          <div className={styles.wrapperRow}>
+        <div className={styles.wrapperRow}>
+          <div className={styles.wrapperColumn}>
             <div className={styles.textRow}>
               <div className={styles.dot} style={{ backgroundColor: colors.Mail }} />
               <div className={styles.textColor}> {`${'Mail'}`}</div>
               <div className={styles.textColor}> {`${'85.7%'}`}</div>
             </div>
             <div className={styles.textRow}>
-              <div className={styles.dot} style={{ backgroundColor: colors.Site }} />
-              <div className={styles.textColor}> {`${'Site'}`}</div>
-              <div className={styles.textColor}> {`${'14.9%'}`}</div>
-            </div>
-          </div>
-          <div className={styles.wrapperRow}>
-            <div className={styles.textRow}>
               <div className={styles.dot} style={{ backgroundColor: colors.Phone }} />
               <div className={styles.textColor}>{`${'Phone'}`}</div>
               <div className={styles.textColor}>{`${'9%'}`}</div>
+            </div>
+          </div>
+          <div className={styles.wrapperColumn}>
+            <div className={styles.textRow}>
+              <div className={styles.dot} style={{ backgroundColor: colors.Site }} />
+              <div className={styles.textColor}> {`${'Site'}`}</div>
+              <div className={styles.textColor}> {`${'14.9%'}`}</div>
             </div>
             <div className={styles.textRow}>
               <div className={styles.dot} style={{ backgroundColor: colors.API }} />

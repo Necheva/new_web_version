@@ -1,5 +1,4 @@
-.lastclient-container {
-  height: 100%;
+.dashboard-container {
   display: flex;
   flex-direction: column;
   padding-left: 25px;
@@ -22,8 +21,22 @@
   font-weight: 500;
   color: #7d7d7d;
   padding-left: 25px;
-  padding-right: 100px;
+
   align-self: center;
+}
+
+.dash-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+}
+
+.dashboard-container:last-child {
+  height: 100%;
+}
+
+.dash-wrapper:last-child {
+  padding-bottom: 0px;
 }
 
 .lastclient-wrapper {
